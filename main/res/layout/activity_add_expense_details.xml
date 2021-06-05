@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".AddExpenseDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Car Expense Details!"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spExpenseType"
+       android:background="@color/white"
+        android:entries="@array/expenseType"></Spinner>
+
+    <EditText
+        android:id="@+id/etCarID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/white"
+        android:textColor="@color/yellow"
+        android:hint="Enter Car ID"/>
+
+    <EditText
+        android:id="@+id/etCarExpdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/white"
+        android:textColor="@color/yellow"
+        android:hint="Enter Car Exp Details"/>
+
+    <EditText
+        android:id="@+id/etCarexpAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="number"
+        android:text=""
+        android:textColorHint="@color/white"
+        android:textColor="@color/yellow"
+        android:hint="Enter amount"/>
+    <EditText
+        android:id="@+id/etCarUserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/white"
+        android:textColor="@color/yellow"
+        android:hint="Enter Car owner"/>
+    <EditText
+        android:id="@+id/etCarExpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/white"
+        android:textColor="@color/yellow"
+        android:hint="Enter date of expense "/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSaveExpCarDetails"
+        android:text="Save"
+
+        android:layout_marginTop="20dp"
+        android:padding="10dp" >
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExpCarBack"
+        android:text="Back"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+    </Button>
+
+
+</LinearLayout>

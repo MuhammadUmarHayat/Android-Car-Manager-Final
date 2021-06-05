@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CarExpenseManagerFinal1</string>
+    <array name="expenseType">
+        <item>Purchase Items</item>
+        <item>Fuel</item>
+        <item>Maintainance</item>
+        <item>Change Oil</item>
+        <item>Spare parts</item>
+        <item>Service</item>
+        <item>Tunning</item>
+        <item>Engine</item>
+        <item>Cleaning</item>
+        <item>Other</item>
+
+    </array>
+
+
+</resources>

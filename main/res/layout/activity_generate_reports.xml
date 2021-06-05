@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" android:layout_gravity="center"
+    tools:context=".GenerateReports">
+
+
+    <TextView
+        android:id="@+id/textViewReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/Mhndi"
+        android:textSize="20dp"
+        android:text="Reports Pannel" />
+
+
+
+    <Button
+        android:id="@+id/buttonAllRep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate All Report" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spExpTypeRep"
+        android:entries="@array/expenseType"></Spinner>
+
+
+
+    <Button
+        android:id="@+id/buttonExReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Report" />
+
+    <EditText
+        android:id="@+id/editTextDateReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Please enter date"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonExReport2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Mhndi"
+        android:text="Generate Date wise Report" />
+
+
+
+
+
+
+</LinearLayout>

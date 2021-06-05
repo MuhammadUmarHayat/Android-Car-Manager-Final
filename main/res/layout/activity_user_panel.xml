@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".UserPanel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Panel!"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/gray"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/btnAddCarDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Add Car Details"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnViewCarGallary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:text="View Car Gallary"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/btnAddCarReadingDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Add Car Reading Details"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnViewCarReadings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:text="View Car Readings"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btnAddCarExpenseDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Add Car Expense Details"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnViewCarExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/Mhndi"
+            android:text="View Car Expenses"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/yellow"
+            android:text="Find car Average"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btnUploadRecipites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/yellow"
+            android:text="Upload Receipets"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btnGenReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/yellow"
+            android:text="Find car Average"
+            android:textColor="@color/black" />
+
+
+        <TextView android:id="@+id/tvResult1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="!"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
